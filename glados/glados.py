@@ -32,7 +32,7 @@ def get_driver_version():
     return out
 
 def glados_checkin(driver):
-    checkin_url = "https://glados.rocks/api/user/checkin"    
+    checkin_url = "https://glados.rocks/console/checkin"    
     checkin_query = """
         (function (){
         var request = new XMLHttpRequest();
